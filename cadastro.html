@@ -10,6 +10,16 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/end-by-cep.js"></script>
+   <script>
+         $(document).ready(function() {
+         $('select').material_select();
+      });
+      </script>
 </head>
 <body>
 
@@ -45,7 +55,20 @@
           <input id="telefone" type="tel" class="validate">
           <label for="telefone">telefone</label>
         </div>
-        <h1 class="header center orange-text">Endereço</h1>
+                <div class="input-field col s6">
+          <i class="material-icons prefix">av_timer</i>
+          <input id="idade" type="number" min="1" max="160" class="validate">
+          <label for="idade">Idade</label>
+        </div>
+        <div class="input-field col s6">
+    <select class="icons" name="sexo">
+      <option value="" disabled selected>Selecione uma opção</option>
+      <option value="f" data-icon="image/female.png" class="circle">Feminino</option>
+      <option value="m" data-icon="image/man.png" class="circle">Masculino</option>
+    </select>
+    <label>Qual o seu sexo?</label>
+  </div>
+        <h2 class="header center orange-text">Endereço</h2>
                <div class="input-field col s6">
           <i class="material-icons prefix">room</i>
           <input name="cep" type="text" id="cep" value="" size="10" maxlength="9">
@@ -78,6 +101,24 @@
           <label for="uf">Casa</label>
         
       </div>
+        <h2 class="header center orange-text">Dados de Referencia</h2>
+
+<div class="input-field col s6">
+          
+          <input name="presao" type="text" id="presao" size="10" placeholder="Ex: 10/8"/>
+          <label for="presao">Presão</label>
+        
+      </div>
+      <div class="input-field col s6">
+          
+          <input name="temperatura" type="text" id="temperatura" size="5" placeholder="Ex: 60"/>
+          <label for="temperatura">Temperatura</label>
+        
+      </div>
+      <button class="btn waves-effect waves-light" type="submit" name="action">Cadastrar
+    <i class="material-icons right">send</i>
+  </button>
+
 
     </form>
   </div>
@@ -120,11 +161,7 @@
   </footer>
 
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-  <script src="js/end-by-cep.js"></script>
+
 
   </body>
 </html>
