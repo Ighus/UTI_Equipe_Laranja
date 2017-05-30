@@ -63,23 +63,19 @@
   <div class="row">
     <form class="col s12">
       <div class="row">
-        <div class="input-field col s6">
+        <div class="input-field col s12">
           <i class="material-icons prefix">account_circle</i>
-          <input id="nome" type="text" class="validate">
+          <input id="nome" type="text" class="validate" data-length="100" required="" minlength="10" required="" aria-required="true">
           <label for="nome">Nome</label>
         </div>
-        <div class="input-field col s6">
-          <i class="material-icons prefix">phone</i>
-          <input id="telefone" type="tel" class="validate">
-          <label for="telefone">telefone</label>
-        </div>
+        
                 <div class="input-field col s6">
  
-          <input type="date" id="dataNascimento" name="dataNascimento" class="datepicker ">
+          <input type="date" id="dataNascimento" name="dataNascimento" class="datepicker " required="" aria-required="true">
           <label for="idade">Data Nascimento</label>
         </div>
         <div class="input-field col s6">
-    <select class="icons" name="sexo">
+    <select class="icons" name="sexo" required="">
       <option value="" disabled selected>Selecione uma opção</option>
       <option value="f" data-icon="image/female.png" class="circle">Feminino</option>
       <option value="m" data-icon="image/man.png" class="circle">Masculino</option>
@@ -89,49 +85,56 @@
         <h2 class="header center orange-text">Endereço</h2>
                <div class="input-field col s6">
           <i class="material-icons prefix">room</i>
-          <input name="cep" type="text" id="cep" value="" size="10" maxlength="9">
+          <input name="cep" type="text" id="cep" value="" size="100" maxlength="100" data-length="100" required="" minlength="7" required="" aria-required="true">
           <label for="cep" >Cep</label>
         </div>
         <div class="input-field col s6">
           
-          <input name="rua" type="text" id="logradouro" size="60" placeholder="Ex: Quadra"/>
+          <input name="rua" type="text" id="logradouro" size="60" placeholder="Ex: Quadra" data-length="100" required=""  required="" aria-required="true"/>
           <label for="logradouro">Rua</label>
         </div>
                 <div class="input-field col s6">
           
-          <input name="bairro" type="text" id="bairro" size="40" placeholder="Ex: setor "/>
+          <input name="bairro" type="text" id="bairro" size="40" placeholder="Ex: setor " data-length="100" required=""  required="" aria-required="true"/>
           <label for="bairro">Bairro</label>
         </div>
                 <div class="input-field col s6">
           
-          <input name="cidade" type="text" id="localidade" size="40" placeholder="Ex: Gama"/>
+          <input name="cidade" type="text" id="localidade" size="40" placeholder="Ex: Gama" data-length="100" required=""  required="" aria-required="true"/>
           <label for="localidade">Cidade</label>
         </div>
                 <div class="input-field col s6">
           
-          <input name="uf" type="text" id="uf" size="2" placeholder="Ex: DF"/>
+          <input name="uf" type="text" id="uf" size="2" data-length="2" required="" minlength="2" required="" aria-required="true" placeholder="Ex: DF"/>
           <label for="uf">Cidade</label>
         
       </div>
       <div class="input-field col s6">
           
-          <input name="casa" type="text" id="casa" size="5" placeholder="Ex: 60"/>
+          <input name="casa" type="text" id="casa" size="5" placeholder="Ex: 60" data-length="100" required=""  required="" aria-required="true"/>
           <label for="uf">Casa</label>
         
       </div>
         <h2 class="header center orange-text">Dados de Referencia</h2>
 
-<div class="input-field col s6">
+<div class="input-field col s3">
           
-          <input name="presao" type="text" id="presao" size="10" placeholder="Ex: 10/8"/>
-          <label for="presao">Presão</label>
+          <input name="presaoMinimo" type="number" id="presaoMinimo" size="10" min="0" max="100" required="" aria-required="true" placeholder="Ex: 19"/>
+          <label for="presaoMinimo">Presão Ex: 19/10</label>
+        
+      </div>
+      <div class="input-field col s3">
+          
+          
+          <input name="presaoMaximo" type="number" id="presaoMaximo" size="10" min="0" max="100"  required="" aria-required="true" placeholder="Ex: 10"/>
         
       </div>
       <div class="input-field col s6">
           
-          <input name="temperatura" type="text" id="temperatura" size="5" placeholder="Ex: 60"/>
+          <input name="temperatura" type="number" id="temperatura" size="5" size="10" min="0" max="100" required="" aria-required="true" placeholder="Ex: 60"/>
           <label for="temperatura">Temperatura</label>
         
+      </div>
       </div>
       <button class="btn waves-effect waves-light" type="submit" name="action">Cadastrar
     <i class="material-icons right">send</i>
@@ -139,7 +142,7 @@
 
 
     </form>
-  </div>
+  
     </div>
   </div>
 
@@ -177,7 +180,7 @@
       </div>
     </div>
   </footer>
-
+<script src="js/end-by-cep.js"></script>
 
 
 
