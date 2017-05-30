@@ -40,8 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClienteDao.cs" />
     <Compile Include="Conexao.cs" />
+    <Compile Include="EnderecoDao.cs" />
+    <Compile Include="HistoricoDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TPDao.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\UTI_GrupoLaranja.Entities\UTI_GrupoLaranja.Entities.csproj">
