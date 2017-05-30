@@ -39,6 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EnderecoBo.cs" />
+    <Compile Include="Exceptions\ExceptionPaciente.cs" />
+    <Compile Include="Exceptions\PacienteInvalidoException.cs" />
+    <Compile Include="Exceptions\PacienteNaoCadastradoException.cs" />
+    <Compile Include="HistoricoBo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UsuarioBo.cs" />
   </ItemGroup>

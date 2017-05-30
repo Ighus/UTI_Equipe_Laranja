@@ -4,17 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace UTI_GrupoLaranja.Entities
 {
-    class Paciente
+    public class Paciente
     {
         public int id { get; set; }
         public string nome { get; set; }
-        public string email { get; set; }
         public DateTime idade { get; set; }
         public char sexo { get; set; }
         public double temperatura { get; set; }
-        public double pressao { get; set; }
+        public int sistolica { get; set; }
+        public int diastolica { get; set; }
 
+        public Endereco endereco = new Endereco();   
+        
+        
     }
 }

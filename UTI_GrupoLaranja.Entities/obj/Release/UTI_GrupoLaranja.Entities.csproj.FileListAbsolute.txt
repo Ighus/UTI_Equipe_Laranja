@@ -1,0 +1,5 @@
+D:\Git\UTI_Equipe_Laranja\UTI_GrupoLaranja.Entities\bin\Release\UTI_GrupoLaranja.Entities.dll
+D:\Git\UTI_Equipe_Laranja\UTI_GrupoLaranja.Entities\bin\Release\UTI_GrupoLaranja.Entities.pdb
+D:\Git\UTI_Equipe_Laranja\UTI_GrupoLaranja.Entities\obj\Release\UTI_GrupoLaranja.Entities.csprojResolveAssemblyReference.cache
+D:\Git\UTI_Equipe_Laranja\UTI_GrupoLaranja.Entities\obj\Release\UTI_GrupoLaranja.Entities.dll
+D:\Git\UTI_Equipe_Laranja\UTI_GrupoLaranja.Entities\obj\Release\UTI_GrupoLaranja.Entities.pdb
