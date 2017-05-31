@@ -3736,15 +3736,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\igor\\.nuget\\packages\\": {}
+    "C:\\Users\\danil\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\UTI_Equipe_Laranja\\UTI_GrupoLaranja.Terminal\\UTI_GrupoLaranja.Terminal.csproj",
+      "projectUniqueName": "C:\\www\\htdocs\\job\\UTI_GrupoLaranja.Terminal\\UTI_GrupoLaranja.Terminal.csproj",
       "projectName": "UTI_GrupoLaranja.Terminal",
-      "projectPath": "D:\\Git\\UTI_Equipe_Laranja\\UTI_GrupoLaranja.Terminal\\UTI_GrupoLaranja.Terminal.csproj",
-      "outputPath": "D:\\Git\\UTI_Equipe_Laranja\\UTI_GrupoLaranja.Terminal\\obj\\",
+      "projectPath": "C:\\www\\htdocs\\job\\UTI_GrupoLaranja.Terminal\\UTI_GrupoLaranja.Terminal.csproj",
+      "outputPath": "C:\\www\\htdocs\\job\\UTI_GrupoLaranja.Terminal\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.4"
@@ -3752,11 +3752,11 @@
       "frameworks": {
         "netstandard1.4": {
           "projectReferences": {
-            "D:\\Git\\UTI_Equipe_Laranja\\UTI_GrupoLaranja.BLL\\UTI_GrupoLaranja.BLL.csproj": {
-              "projectPath": "D:\\Git\\UTI_Equipe_Laranja\\UTI_GrupoLaranja.BLL\\UTI_GrupoLaranja.BLL.csproj"
+            "C:\\www\\htdocs\\job\\UTI_GrupoLaranja.BLL\\UTI_GrupoLaranja.BLL.csproj": {
+              "projectPath": "C:\\www\\htdocs\\job\\UTI_GrupoLaranja.BLL\\UTI_GrupoLaranja.BLL.csproj"
             },
-            "D:\\Git\\UTI_Equipe_Laranja\\UTI_GrupoLaranja.Entities\\UTI_GrupoLaranja.Entities.csproj": {
-              "projectPath": "D:\\Git\\UTI_Equipe_Laranja\\UTI_GrupoLaranja.Entities\\UTI_GrupoLaranja.Entities.csproj"
+            "C:\\www\\htdocs\\job\\UTI_GrupoLaranja.Entities\\UTI_GrupoLaranja.Entities.csproj": {
+              "projectPath": "C:\\www\\htdocs\\job\\UTI_GrupoLaranja.Entities\\UTI_GrupoLaranja.Entities.csproj"
             }
           }
         }
