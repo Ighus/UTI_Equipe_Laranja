@@ -45,6 +45,7 @@
     <Compile Include="Exceptions\PacienteNaoCadastradoException.cs" />
     <Compile Include="HistoricoBo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TPBo.cs" />
     <Compile Include="UsuarioBo.cs" />
   </ItemGroup>
   <ItemGroup>

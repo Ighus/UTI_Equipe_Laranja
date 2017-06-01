@@ -1,0 +1,3 @@
+D:\Git\UTI_Equipe_Laranja\UTI_GrupoLaranja.Terminal\bin\Debug\netstandard1.4\UTI_GrupoLaranja.Terminal.deps.json
+D:\Git\UTI_Equipe_Laranja\UTI_GrupoLaranja.Terminal\obj\Debug\netstandard1.4\UTI_GrupoLaranja.Terminal.csprojResolveAssemblyReference.cache
+D:\Git\UTI_Equipe_Laranja\UTI_GrupoLaranja.Terminal\obj\Debug\netstandard1.4\UTI_GrupoLaranja.Terminal.AssemblyInfo.cs

@@ -148,7 +148,6 @@
     <Content Include="css\materialize.min.css" />
     <Content Include="css\style.css" />
     <Content Include="Global.asax" />
-    <Content Include="google.aspx" />
     <Content Include="image\female.png" />
     <Content Include="image\man.png" />
     <Content Include="Index.aspx" />
@@ -176,13 +175,6 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="google.aspx.cs">
-      <DependentUpon>google.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="google.aspx.designer.cs">
-      <DependentUpon>google.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
@@ -246,6 +238,10 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Terminal\UTI_GrupoLaranja.Terminal.csproj">
+      <Project>{40615f1e-6dde-49e9-9ffa-25bc31be919b}</Project>
+      <Name>UTI_GrupoLaranja.Terminal</Name>
+    </ProjectReference>
     <ProjectReference Include="..\UTI_GrupoLaranja.BLL\UTI_GrupoLaranja.BLL.csproj">
       <Project>{640d1263-3bd3-4d38-b754-98f5446b5130}</Project>
       <Name>UTI_GrupoLaranja.BLL</Name>
