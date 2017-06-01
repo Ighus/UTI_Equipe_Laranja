@@ -58,6 +58,15 @@ D:\Git\UTI_Equipe_Laranja\WebService\bin\Microsoft.Owin.Security.Google.xml
 D:\Git\UTI_Equipe_Laranja\WebService\bin\Microsoft.Owin.Security.Twitter.xml
 D:\Git\UTI_Equipe_Laranja\WebService\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\Git\UTI_Equipe_Laranja\WebService\bin\System.Web.Http.Owin.xml
-D:\Git\UTI_Equipe_Laranja\WebService\obj\Debug\WebService.csprojResolveAssemblyReference.cache
+D:\Git\UTI_Equipe_Laranja\WebService\bin\pt-br\System.Net.Http.Formatting.resources.dll
+D:\Git\UTI_Equipe_Laranja\WebService\bin\pt-br\System.Web.Helpers.resources.dll
+D:\Git\UTI_Equipe_Laranja\WebService\bin\pt-br\System.Web.Http.resources.dll
+D:\Git\UTI_Equipe_Laranja\WebService\bin\pt-br\System.Web.Http.WebHost.resources.dll
+D:\Git\UTI_Equipe_Laranja\WebService\bin\pt-br\System.Web.Mvc.resources.dll
+D:\Git\UTI_Equipe_Laranja\WebService\bin\pt-br\System.Web.Optimization.resources.dll
+D:\Git\UTI_Equipe_Laranja\WebService\bin\pt-br\System.Web.Razor.resources.dll
+D:\Git\UTI_Equipe_Laranja\WebService\bin\pt-br\System.Web.WebPages.resources.dll
+D:\Git\UTI_Equipe_Laranja\WebService\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+D:\Git\UTI_Equipe_Laranja\WebService\bin\pt-br\System.Web.WebPages.Razor.resources.dll
 D:\Git\UTI_Equipe_Laranja\WebService\obj\Debug\WebService.dll
 D:\Git\UTI_Equipe_Laranja\WebService\obj\Debug\WebService.pdb

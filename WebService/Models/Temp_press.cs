@@ -10,7 +10,7 @@ namespace WebService.Models
     {
         [Key]
         public Int64 id { get; set; }
-        public int temperatura { get; set; }
+        public double temperatura { get; set; }
         public int pressao1 { get; set; }
         public int pressao2 { get; set; }
 

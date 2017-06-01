@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UTI_GrupoLaranja.Entities
 {
-    class Historico
+    public class Historico
     {
         public Int32 id { get; set; }
         public double temperatura { get; set; }

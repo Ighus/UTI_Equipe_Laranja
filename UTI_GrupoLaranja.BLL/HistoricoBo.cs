@@ -9,29 +9,29 @@ using UTI_GrupoLaranja.Entities;
 
 namespace UTI_GrupoLaranja.BLL
 {
-    class HistoricoBo
+    public class HistoricoBo
     {
         private HistoricoDao _historico;
 
-        public void contarRegistro(int id)
+        public int contarRegistro(int id)
         {
 
             _historico = new HistoricoDao();
 
-            
-
             var linhasAfetadas = _historico.countRegistro(id);
 
+             return linhasAfetadas;
 
-            int resto = linhasAfetadas % 2;
-            if (resto == 0 && linhasAfetadas > 1)
-            {
-                
-            }
-            else
-            {
-                
-            } 
+        }
+
+        public void inserirNovoHistorico(Historico his)
+        {
+
+            _historico = new HistoricoDao();
+
+            _historico.inserirHistorico(his);
+
+          
 
             // return 0;
 

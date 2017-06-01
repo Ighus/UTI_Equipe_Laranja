@@ -1,20 +1,83 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="UTI_GrupoLaranja.Site" %>
 
+<!-- INICIO HEADER  -->
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head runat="server">
-    <title></title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>UTI Laranja</title>
+
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+		 <asp:ContentPlaceHolder ID="headContent" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+<nav>
+  <div class="nav-wrapper orange">
+    <a href="/Index.aspx" class="brand-logo">Projeto UTI</a>
+    <ul class="right hide-on-med-and-down">
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Menu Principal<i class="material-icons right">arrow_drop_down</i></a>
+          <ul id="dropdown1" class="dropdown-content ">
+            <li><a href="/Lista.aspx"><i class="material-icons">group</i>Pacientes</a></li>
+             <li><a href="/Cadastro.aspx"><i class="material-icons">face</i>Cadastro</a></li>
+          </ul>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+<!-- FIM HEADER  -->
+
+
+
+        <asp:ContentPlaceHolder ID="bodyContent" runat="server">
         
         </asp:ContentPlaceHolder>
+
+<!-- INICIO FOOTER  -->
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Projeto</h5>
+          <p class="grey-text text-lighten-4">Micro explicação</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Membros</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Pedro Caetano (Gerente)</a></li>
+            <li><a class="white-text" href="#!">Bernardo Brunale</a></li>
+            <li><a class="white-text" href="#!">Danilo</a></li>
+			  <li><a class="white-text" href="#!">Igor</a></li>
+            <li><a class="white-text" href="#!">Gabriel Guiotti</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    </form>
-</body>
+    <div class="footer-copyright">
+      <div class="container">
+      Front-end: Materialize  back-end: C#
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+
+	<asp:ContentPlaceHolder ID="footerContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+  </body>
 </html>
+ <!-- FIM FOOTER  -->
